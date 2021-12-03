@@ -1,0 +1,7 @@
+This program will display, and perform manipulations on, an image provided on the command line.
+
+To compile the program, type 'make' and then 'make paint'. This will create an executable 'img_paint' file.
+
+To run the program type './img_paint -image <image>' where <image> is the path to an image.
+
+When the program is run, the image will be displayed. Additionally, the terminal will display which keboard buttuns will cause which manipulations to occur. When a key that corresponds to a manipulation is pressed, a new image with the specified manipulations applied will be shown in place of the old image.
